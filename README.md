@@ -13,7 +13,7 @@ Este case é constituído de duas partes:
 No entanto, o desafio foi validar com sucesso a seguinte tarefa: 
 > "verificar se existe um programa em python3 ativo com o pid (id de processo) lido deste arquivo(em txt)."
 
-Para este problema, usei como estratégia a comparação entre **PID impresso no txt** pelo processo em python e o **PID indentificado pelo shell script* do próprio código em python.
+Para este problema, usei como estratégia a comparação entre **PID impresso no txt** pelo processo em python e o **PID indentificado pelo shell script** do próprio código em python.
 O processo conseguiu trazer o PID do script em python, mas ao comparar as duas variáveis de PID, não consegue identificar situações de igualdade. Logo, nunca retorna true.
 Como consequência, o processo executa novamente o script.py, cria um novo PID, entra no loop, retorna false... etc.
 Para ações futuras, é necessário revisitar essa validação.
