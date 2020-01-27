@@ -4,6 +4,10 @@ Este case é constituído de duas partes:
 - A primeira é um código em shell, de preferência rodando em um terminal unix (linux ou macOs), 
 - e o segundo um script em python3.
 
+## Modelo conceitual dos processos
+
+![Modelo Conceitual](https://raw.githubusercontent.com/amanandrade/case-embarcados/master/modelo_conceitual.png)
+
 > Instruções detalhadas foram passadas por e-mail.
 
 ## Diferenças entre o modelo conceitual e a execução
